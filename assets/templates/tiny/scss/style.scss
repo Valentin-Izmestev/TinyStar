@@ -1,0 +1,93 @@
+@import 'fonts';
+@import 'global';
+@import 'icomoon'; 
+@import 'slick'; 
+@import 'slick-theme'; 
+@import 'jquery.fancybox'; 
+@import 'jquery-ui'; 
+@import 'scroll-pane'; 
+@import 'header';
+@import 'footer';
+@import 'common';
+@import 'index';
+@import 'catalog-page';
+@import 'product-page';
+@import 'contacts';
+@import 'about';
+@import 'arctic-modal-style';
+
+.font-bold{
+    font-family: 'AlegreyaSans-Bold', sans-serif;
+}
+.font-light{
+    font-family: 'AlegreyaSans-Light', sans-serif;
+}
+.font-medium{
+    font-family: 'AlegreyaSans-Medium', sans-serif;
+}
+.font-regular{
+    font-family: 'AlegreyaSans-Regular', sans-serif;
+} 
+
+.formatted-page h1{
+    font-family: 'AlegreyaSans-Bold', sans-serif;
+    font-size:36px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.formatted-page h2{
+    font-family: 'AlegreyaSans-Bold', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.formatted-page h3{
+    font-family: 'AlegreyaSans-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.formatted-page h4{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+} 
+.formatted-page ul {
+    margin-bottom: 20px;
+}
+.formatted-page ul li{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 19px;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.formatted-page ul li::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    background-color: #56b7e1;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px; 
+}
+.formatted-page ul.check{ 
+    display: inline-block;
+    padding: 27px 35px 21px 25px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+}
+.formatted-page ul.check li{
+    padding-left:  21px;
+    
+}
+.formatted-page ul.check li::before{
+    width: 12px;
+    height: 11px;
+    border-radius: 0;
+    background-color: transparent;
+    background-image: url(../img/check-arr.svg);
+    background-size: contain;
+}

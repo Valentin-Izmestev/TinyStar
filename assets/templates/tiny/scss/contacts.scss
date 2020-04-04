@@ -1,0 +1,143 @@
+
+.contact-map-box { 
+    height: 592px;  
+}
+#contacts-map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.contacts-section{
+    margin-bottom: 208px;
+    padding-top: 73px
+}
+.contacts-section .section-title{
+    margin-bottom: 37px;
+}
+.contacts-section .right-block {
+    margin-left: 1.8%;
+}
+.contact-box, .address-box{
+    box-sizing: border-box;
+    width: 289px;
+    height: 286px; 
+}
+.contact-box{
+    padding: 45px 27px 29px 27px;
+    background-color: #eaf4f6;
+}
+.contact-box li{
+    margin-bottom: 26px;
+}
+.contact-box li a,
+.contact-box li span{
+    position: relative;
+    line-height: 34px;
+    box-sizing: border-box;
+    padding-left: 48px; 
+    transition: color 0.3s;
+}
+.contact-box li a:hover{
+    text-decoration: none; 
+    color: #742469;
+}
+.contact-box li .phone{
+    font-size: 24px;
+    top: -3px;
+    left: -6px;
+}
+.contact-box li .ms-icon::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(../img/contacts-icon-spryte.png);
+    background-repeat: no-repeat;
+}
+.contact-box li .phone::before{
+    width: 31px;
+    height: 31px;
+    background-position: -1px 0px;
+}
+.contact-box li .viber::before{
+    width: 31px;
+    height: 33px;
+    background-position: -2px -58px;
+}
+.contact-box li .whatsapp::before{
+    width: 33px;
+    height: 33px;
+    background-position: 0px -116px;
+}
+.contact-box li .telegram::before{
+    width: 28px;
+    height: 24px;
+    background-position: -5px -179px;
+}
+
+.address-box{
+    background-color: #fff8ea;
+    padding: 29px 27px 29px 27px;
+    height: 305px;
+}
+
+.address-box .address__item{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 48px;
+    margin-bottom: 33px;
+}
+.address-box .address__item{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 48px;
+    margin-bottom: 32px;
+}
+.address-box .address__item__icon{ 
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 0;
+    left: 0;
+    background-image: url(../img/contacts-icon-spryte.png);
+    background-repeat: no-repeat;
+}
+.address-box .address__item .address__caption{
+    font-size: 18px;
+    line-height: 21px; 
+}
+.address-box .address__item .address__text{
+    font-size: 18px;
+    line-height: 21px;
+}
+.address-box .address__item .marker {
+    background-position: -1px -274px;
+    top: 6px;
+}
+.address-box .address__item .email{
+    background-position: -1px -349px;
+    top: 6px;
+}
+.address-box .address__item .email+a{
+    line-height: 45px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.address-box .address__item.email a:hover{
+    color: #742469;
+    text-decoration: none;
+}
+.address-box .address__item .address{
+    background-position: -1px -413px;
+    top: -8px;
+}
+.address-box .address__item__location .address__caption{
+    line-height: 18px;
+}
+.address-box .address__item__location .address__text{
+    position: relative;
+    top: -4px;
+}

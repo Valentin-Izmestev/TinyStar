@@ -1,0 +1,55 @@
+.catalog-page{
+    
+}
+.catalog-page .section-title{
+    
+}
+.catalog-page .catalog{
+    
+}
+.catalog-page .catalog__row{
+    
+} 
+.catalog-page .catalog__item-wr{
+    width: 33.333333%;
+} 
+
+.col-left{ 
+    padding-right: 15px;
+    margin-right: 2.05%;
+    max-width: 344px;
+    width: 100%;
+    padding-top: 164px; 
+}
+.col-left .filter{
+    background-image: url(../img/filter-bg.jpg);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 30px 68px 31px 40px;
+}
+.catalog-page .content{
+    padding-top: 42px;
+}
+.catalog-page .section-title { 
+    margin-bottom: 17px;
+}
+.catalog-page .control-panel{
+    margin-bottom: 25px;
+}
+.catalog-page .filter__settings{
+    width: 240px;
+    padding-top: 12px;
+    overflow: visible;
+}
+.catalog-page .filter__settings .price__form span, 
+.catalog-page .filter__settings .price__before span { 
+    margin-bottom: 9px;
+}
+.catalog-page .filter__settings .inputs-price__box {
+    margin-bottom: 15px; 
+}
+ .filter__item{
+    margin-bottom: 10px;
+}

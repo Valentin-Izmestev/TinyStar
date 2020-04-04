@@ -1,0 +1,378 @@
+.about-tiny{
+    background-color: #eaf4f6;
+    background-image: url(../img/tiny-about-bg.jpg);
+    
+}
+.about-tiny .inner-big{
+    padding-top: 246px;
+    padding-bottom: 175px;
+    box-sizing: border-box;
+//    padding-right: 25%;
+}
+.about-tiny .content-box{ 
+    position: relative;
+    max-width: 652px; 
+    font-size: 18px;
+    z-index: 50;
+    width: 55%;
+}
+.about-tiny .content-box .section-title{
+}
+.about-tiny .content-box p{
+    font-family: 'AlegreyaSans-Regular', sans-serif;
+    line-height: 22px;
+     margin-bottom: 21px;
+}
+.about-tiny .tiny-wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+} 
+.about-tiny .childrens{ 
+    
+    width: 880px;
+    height: 519px;
+    background-image: url(../img/childrens.png);
+    left: 42.4%;
+//    left: 654px;
+    bottom: 1.5%;
+} 
+.about-tiny .finy-star-1{
+    width: 123px;
+    height: 125px;
+    left: -150px;
+    top: 41%;
+    background-image: url(../img/footer-star-3.png);
+}
+.about-tiny .finy-star-2{
+    width: 87px;
+    height: 89px;
+    right: 56.4%;
+    bottom: 12%;
+    background-image: url(../img/orang-star.png);
+}
+.about-tiny .finy-star-3{
+    width: 47px;
+    height: 48px;
+    left: 50.8%;
+    top: 21%;
+    background-image: url(../img/pink-star.png);
+}
+.about-tiny .finy-star-4{
+    width: 47px;
+    height: 48px;
+    left: 79.4%;
+    top: 27.5%;
+    background-image: url(../img/white-small-star.png);
+}
+.about-tiny .finy-star-5{
+    width: 56px;
+    height: 57px;
+    left: 107.7%;
+    bottom: 31%;
+    background-image: url(../img/purpur-star.png);
+}
+
+//----------
+
+.requisites-section{
+    padding-top: 159px;
+    padding-bottom: 50px;
+} 
+.requisites-section .requisites__img{
+//    max-width: 831px;
+    width: 54.38%;
+//    height: 543px;
+    margin-right: 9%;
+}
+
+.requisites__box{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    max-width: 496px;
+} 
+.requisites__box .requisites__inner{
+    border: 5px solid #fff;
+    border-radius:  10px;
+    box-sizing: border-box;
+    padding: 40px 38px 33px 38px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.requisites__box p{
+     line-height: 21px;
+    margin-bottom: 24px;
+}
+.requisites__box strong{
+    
+}
+.requisites__box .ip-contact{
+    margin-bottom: 53px;
+}
+.requisites__box .ip-contact li{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 18px;
+    margin-bottom: 15px;
+}
+.requisites__box .ip-contact li::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-color: #56b7e1;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.requisites__box .cuption{
+    font-family: 'AlegreyaSans-Medium', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 15px;
+
+}
+.requisites__box .requisites-list{
+    position: relative;
+    font-size: 24px;
+} 
+.requisites__box .requisites-list li{ 
+    margin-bottom: 8px;
+}
+
+.requisites-section .requisites-star-1{
+    width: 273px;
+    height: 279px;
+    left: -156px;
+    bottom: 40%;
+    background-image: url(../img/requisites-star.png);
+}
+.requisites-section .requisites-star-2{
+    width: 122px;
+    height: 125px;
+    right: -38px;
+    bottom: 17%; 
+    background-image: url(../img/requisites-star.png);
+}
+
+//return__text
+.return-section{
+    position: relative;
+    padding-top: 93px;
+    padding-bottom: 102px;
+    background-color: #fef7e9;
+}
+.return-section .inner-big{
+    padding-top: 61px;
+    padding-bottom: 50px;
+}
+.return-section::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 93px;
+    top: 0;
+    left: 0;
+    background-image: url(../img/return-top-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.return-section::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 102px;
+    bottom:0;
+    left: 0;
+    background-image: url(../img/return-bottom-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.return-section .section-title{
+    
+}
+.return-section .cuption{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 14px;
+}
+.return-section .return__column-box{
+    margin-bottom: 63px;
+}
+.return-section .return__column-box .row{ 
+    margin-right: -30px;
+}
+.return__column{
+    float: left;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+.return-section .return__column-box .return__column{
+    max-width: 487px;
+    width: 33.33333%; 
+}
+.return-section p{
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 27px;
+}
+.return-section a{
+    color: #56b7e1;
+}
+.return-section .special-attention{
+    position: relative;
+    overflow: hidden;
+    max-width: 437px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 26px 18px 26px;
+    top: 5px; 
+    margin-bottom: 35px; 
+}
+.return-section .special-attention::before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #bad162;
+    top: 0;
+    left: 0;
+}
+.return-section .return__column .cuption{
+    
+} 
+.return-section .return__column-box-2 .row{
+    
+    margin-right: -30px;
+}
+.return-section .return__column-box-2 .return__column{
+    float: left;
+    width: 50%;
+}
+.return-star-1{
+    width: 87px;
+    height: 89px;
+    right: 109%;
+    bottom: 25.5%;
+    background-image: url(../img/orang-star.png);
+}
+.return-star-2{
+    width: 47px;
+    height: 48px;
+    left: 31%;
+    top: 7%;
+    background-image: url(../img/pink-star.png);
+}
+.return-star-3{
+    width: 147px;
+    height: 150px;
+    left: 70%;
+    top: -12%;
+    background-image: url(../img/footer-star-3.png);
+}
+.return-star-4{
+    width: 56px;
+    height: 57px;
+    left: 70%;
+    bottom: 32%;
+    background-image: url(../img/purpur-star.png);
+}
+.return-star-5{
+    width: 273px;
+    height: 279px;
+    left: 102%;
+    bottom: 19%;
+    background-image: url(../img/big-orang-star.png);
+}
+
+//sertification-section
+.sertification-section{
+    position: relative;
+    padding-bottom: 99px;
+    background-color: #e4f79c;
+    margin-bottom: 126px;
+}
+.sertification-section::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 99px;
+    width: 100%;
+    background-image: url(../img/sertification-bottom-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.sertification-section .inner-big{
+    padding-top: 38px;
+    padding-bottom: 62px;
+}
+.sertification-section .title{
+    margin-bottom: 68px;
+    position: relative;
+    z-index: 10;
+}
+.sertification-section .sertification__box{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.sertification-section .sertification__box .sertificate{
+    position: relative;
+    display: block;
+    max-width: 376px;
+    width: 100%;
+    padding: 19px 36px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+.sertification-section .sertification__box .sertificate .sertification__glass{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-image: url(../img/glass.png);
+    
+}
+.sert-star-1{
+    width: 87px;
+    height: 89px;
+    right: 108.5%;
+    bottom: 15.5%;
+    background-image: url(../img/orang-star.png);
+}
+.sert-star-2{
+    width: 47px;
+    height: 48px;
+    left: 19.5%;
+    top: 4.5%;
+    background-image: url(../img/pink-star.png);
+}
+.sert-star-3{
+    width: 47px;
+    height: 48px;
+    left: 31%;
+    bottom: 4%;
+    background-image: url(../img/violet-star.png);
+}
+.sert-star-4{
+    width: 124px;
+    height: 126px;
+    left: 67%;
+    top: 5%;
+    background-image: url(../img/requisites-star.png);
+}
+.sert-star-5{
+    width: 273px;
+    height: 279px;
+    left: 101.3%;
+    bottom: -3%;
+    background-image: url(../img/requisites-star.png);
+}
